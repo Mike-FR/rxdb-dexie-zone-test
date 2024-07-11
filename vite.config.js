@@ -7,4 +7,7 @@ export default defineConfig({
   // optimizeDeps: {
   //   exclude: ['@socotec.io/socio-vue-components']
   // }
+  optimizeDeps: {
+    exclude: ["dexie"],
+  },
 })

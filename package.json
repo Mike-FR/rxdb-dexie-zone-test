@@ -10,9 +10,18 @@
   },
   "dependencies": {
     "@grafana/faro-web-tracing": "^1.7.3",
+    "dexie": "^4.0.8",
     "rxdb": "^15.22.0",
     "rxjs": "^7.8.1",
     "vue": "^3.4.21"
+  },
+  "resolutions": {
+    "dexie": "^4.0.8"
+  },
+  "overrides": {
+    "rxdb": {
+      "dexie": "^4.0.8"
+    }
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
